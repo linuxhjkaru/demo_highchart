@@ -1,0 +1,11 @@
+
+#container style=("min-width: 310px; height: 400px; margin: 0 auto")
+#show-month
+
+javascript:
+  var month = #{raw @month};
+  var tokyo = #{raw @tokyo};
+  var berlin = #{raw @berlin};
+  var newyork = #{raw @newyork};
+  var london = #{raw @london};
+  demo_highchart(month, tokyo, newyork, london, berlin);
